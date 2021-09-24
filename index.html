@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vamos a aprender a tocar la guitarra con las mejores técnicas, ¡Bienvenido a clases con Brian!"/>
+    <meta name="keywords" content="guitarra, clases, brian, musica, teoria, musical, aprender, digitacion, escalas, armonia, melodia, practica, arte, argentina, zona sur, buenos aires, america"/>
+    <meta name="author" content="Brian Racioppi" />
+    <meta name="copyright" content="Leo Popolo" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/0420c2d0e0.js" crossorigin="anonymous"></script>
+    <script src="./scripts/jquery-3.5.1.js"></script>
+    <script src="./scripts/script.js"></script>
+    <title>Brian music</title>
+</head>
+<body>
+    <nav>
+        <span class="burger" id="burger"><i class="fas fa-grip-lines" id="btnburger"></i></span>
+        <span class="title" onclick="showHome()"><h3><span>Brian </span> <span> Music</span></h3></span>
+    </nav>
+    <div class="wallpaper">
+        <div id="welcomediv">
+            <h1>¡Bienvenido al lugar para desarrollar tu talento musical!</h1>
+        </div>
+        <div class="info" id="info">
+            <ul>
+                <li id="home" onclick="showHome()"><a>Inicio</a></li>
+                <li id="option1" onclick="addClassesInfo()"><a>Clases</a></li>
+                <li id="option2" onclick="addAboutInfo()"><a>Sobre mí</a></li>
+                <li id="option3" onclick="addSocialInfo()"><a>Contacto</a></li>
+            </ul>
+        </div>
+
+        <div id="container-info">
+        </div>
+
+        <h3 id="classes-message">Clases particulares y personalizadas</h3>
+    </div>
+</body>
+</html>
